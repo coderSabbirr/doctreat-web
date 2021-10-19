@@ -32,5 +32,6 @@ To Start Server:
 To Visit App:
 
 `localhost:3000`  
-##
+
+##license 
 Doctreat (including the runtime repo) is licensed under the [MIT](LICENSE.TXT) license.
