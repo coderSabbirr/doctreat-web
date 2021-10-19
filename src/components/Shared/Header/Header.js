@@ -6,6 +6,7 @@ import useAuth from '../../../hooks/useAuth';
 import './Header.css'
 const Header = () => {
   const {user,logOut}=useAuth();
+  console.log(user)
     return (
         <div className="">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,7 +38,7 @@ const Header = () => {
           }
         </li>
         <li className="mt-2 me-5 user-name">{user?.displayName}</li>
-        {user.email?
+        {user?.displayName?
         <li className="mx-4">
         <button className="custom-login-btn custom-btn-logout " onClick={logOut} >Logout</button>
       </li>:
