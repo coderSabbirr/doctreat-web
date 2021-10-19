@@ -33,6 +33,7 @@ const handalaRegister= ()=> {
 .then(result=>{
   setUser(result.user)
   setUsername();
+  window.location.reload();
 })
 .catch(error=>{
   setError(error.message);
