@@ -2,8 +2,7 @@
 ## project Live : https://react-firebase-201.web.app/
 
 
-## Project Status: complete ![alt text](https://i.ibb.co/PcgRkyc/completed-task.png)
-
+## Project Status: complete!
 
 
 ## Project Screen Shot(s)
