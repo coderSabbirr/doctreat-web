@@ -21,11 +21,11 @@ const Header = () => {
         <li className="nav-item">
           <NavLink className="nav-link active" aria-current="page" to="/home">Home</NavLink>
         </li>
-        {/* <li className="nav-item">
-          <a  className="nav-link active" aria-current="page" href="home/#services">Our Services</a>
-        </li> */}
         <li className="nav-item">
           <NavLink className="nav-link" to="articles">Articels</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" to="gallery">Gallery</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/contect">Contect Us</NavLink>
@@ -37,7 +37,7 @@ const Header = () => {
           }
         </li>
         <li className="mt-2 me-5 user-name">{user?.displayName}</li>
-        {user?.email?
+        {user.email?
         <li className="mx-4">
         <button className="custom-login-btn custom-btn-logout " onClick={logOut} >Logout</button>
       </li>:

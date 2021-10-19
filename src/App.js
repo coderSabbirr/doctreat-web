@@ -12,6 +12,7 @@ import Register from './components/Page/Register/Register'
 import ThankYou from './components/Page/ThankYou/ThankYou';
 import AllArticels from './components/Page/allArticels/AllArticels';
 import ContectUs from './components/Page/contectUs/ContectUs';
+import Gallery from './components/Page/gallery/Gallery';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
          </Route>
          <Route  path="/articles">
                <AllArticels></AllArticels>
+         </Route>
+         <Route  path="/gallery">
+              <Gallery></Gallery>
          </Route>
          <Route  path="/contect">
                <ContectUs></ContectUs>

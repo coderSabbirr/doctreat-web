@@ -11,6 +11,7 @@ const useFirebase= ()=>{
     const[email,setEmail]=useState('')
     const[password,setPassword]=useState('')
     const[error,setError]=useState('')
+
     const auth = getAuth();
 
 const signInUsingGoogle= ()=> {
@@ -19,7 +20,7 @@ const signInUsingGoogle= ()=> {
 
     signInWithPopup(auth,googleProvider)
     .then(result=>{
-        setUser(result.user)
+       setUser(result.user)
     })
     .catch(error=>{
       setError("popup-closed you");
@@ -30,7 +31,7 @@ const signInUsingGoogle= ()=> {
 const handalaRegister= ()=> {
   createUserWithEmailAndPassword (auth,email,password)
 .then(result=>{
- 
+  setUser(result.user)
   setUsername();
 })
 .catch(error=>{
@@ -40,7 +41,7 @@ const handalaRegister= ()=> {
 const handaleSignIn = ()=>{
   signInWithEmailAndPassword(auth, email, password)
   .then(result=> {
-    
+    setUser(result.user)
   })
   .catch((error) =>{
     setError(error.message);
@@ -49,7 +50,6 @@ const handaleSignIn = ()=>{
 const setUsername =() => {
   updateProfile(auth.currentUser, {displayName:name})
   .then(result=>{})
-
 }
 useEffect(()=>{
 onAuthStateChanged(auth, (user) => {

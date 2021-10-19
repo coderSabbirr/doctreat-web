@@ -1,0 +1,29 @@
+.gallery {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin-left: 5%;
+margin-right: 5%;
+}
+.gallery-heading {
+font-size: 36px;
+margin-bottom: 5%;
+margin-top: 5%;
+}
+.gallery img {
+margin-top: 20px;
+
+}
+.port {
+    color: #00aeef;
+}
+@media only screen and (max-width: 600px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       padding-right: 20px!important;
+       
+        }
+        .gallery img {
+            width:300px;
+        }
+  }
