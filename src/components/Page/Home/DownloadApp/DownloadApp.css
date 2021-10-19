@@ -1,0 +1,26 @@
+.downloadApp-sec {
+    background-color: #e8f6ff;
+    margin-top: 60px;
+}
+.downloadApp-sec img {
+    border-radius: 10px;
+}
+.app-dec {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 688px) {
+    .downloadApp {
+        display: flex;
+        flex-direction: column
+    }
+    .downloadApp img {
+       width: 85%;
+    }
+    .app-dec img{ 
+       width:30% ;
+       margin-left: 20px;
+       margin-top: 20px;
+    }
+  }

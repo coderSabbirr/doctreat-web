@@ -1,0 +1,56 @@
+.all-cart {
+    width: 232px;
+    height: 100%; 
+    transition: 0.6s;
+}
+.all-cart:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.all-cart img {
+    width: 230px;  
+}
+.all-cart h6 {
+   color:  #3fabf3;
+   font: 400 14px/26px'Poppins',sans-serif;
+}
+.all-cart h3 {
+   color:  #3d4461;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1;
+}
+.all-cart p {
+    color: #767676;
+    font-size: 13px;
+    font-style: normal;
+}
+.avail {
+    color: #1abc9c !important;
+}
+.btn-two{
+    text-align: center;
+}
+.doc-about{
+    padding: 6px 10px;
+    text-align: center;
+    border: 2px solid #3fabf3;
+    border-radius: 4px;
+    color: black;
+    font-size:14px ;
+    margin-right: 10px;
+    transition: 0.6s;
+    background-color: transparent;
+}
+.doc-about:hover{
+    background-color: #3fabf3;
+    color: white;
+}
+.doc-contect{
+    padding: 6px 10px;
+    background-color: #3fabf3;
+    border: 2px solid #3fabf3;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    
+}

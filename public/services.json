@@ -1,0 +1,32 @@
+[
+    { "key":"1",
+        "name":"BLOOD BANK",
+        "dec":"Professional centrifuge suitable for a large number of sample solutions. 500ml to 2L bag. Reduce start-up time, improve efficiency. Excellent temperature control ",
+        "img":"https://i.ibb.co/6tF9t9h/blood.jpg"
+    },
+    { "key":"2",
+        "name":"FULL STETHOSCOPE",
+        "dec":"The Classic III stethoscope is made in the USA for consistent quality. It comes complete with large and small soft-sealing ear tips, a non-chill bell sleeve",
+        "img":"https://i.ibb.co/C2dPKkY/STETHOSCOPE.jpg"
+    },
+    { "key":"3",
+        "name":"FOR DISABLE",
+        "dec":"The purpose of the World Programme of Action concerning Disabled Persons is to promote effective measures for prevention of disability",
+        "img":"https://i.ibb.co/YXyk6CY/DISABLE.jpg"
+    },
+    { "key":"4",
+        "name":"HEART SPECIALEST",
+        "dec":"A new era in the field of cardiac care is dawned, a new chapter opened. Labaid Cardiac Hospital - the fist international standard super-specialty hospital",
+        "img":"https://i.ibb.co/CzTbrVR/HEART.jpg"
+    },
+    { "key":"5",
+        "name":"EXPRIENCED DOCTORS",
+        "dec":"Experienced Doctors · A trusted, patient focused and experienced locum doctor with a long history of serving patients by successfully diagnosing",
+        "img":"https://i.ibb.co/R9gyXxb/DOCTORS.jpg"
+    },
+    { "key":"6",
+        "name":"Dental",
+        "dec":"We are a team of young professionals passionate in our work. We work in a friendly and efficient using the latest technologies and sharing our expertise ",
+        "img":"https://i.ibb.co/sjFbW67/Screenshot-144.jpg"
+    }
+]

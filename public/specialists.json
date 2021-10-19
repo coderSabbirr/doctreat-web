@@ -1,0 +1,75 @@
+[
+    {
+        "id":"dr1",
+        "tag":"Anesthesiology",
+        "name":"Flores Emily",
+        "docinfo":"Ph.D, DPT, MS OMPT",
+        "available":"Available Today",
+        "country":"England",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/20.jpg"
+    },
+    {
+        "id":"dr2",
+        "tag":"Anesthesiology",
+        "name":"Steven Ford",
+        "docinfo":"M.A,DHMS, RHMP",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/06.jpg"
+    },
+    {
+        "id":"dr3",
+        "tag":"Anesthesiology",
+        "name":"Samuel Daniels",
+        "docinfo":"DHMS, RHMP, MSc Psychology",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/05.jpg"
+    },
+    {
+        "id":"dr4",
+        "tag":"Anesthesiology",
+        "name":"Ann Coleman",
+        "docinfo":"MBBS, M.S (Ophthalmology)",
+        "available":"Available Today",
+        "country":"United Emirates",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/15.jpg"
+    },
+    {
+        "id":"dr5",
+        "tag":"Emergency medicine",
+        "name":"Ridhi Nair",
+        "docinfo":"MBBS, FCPS (Psychiatry)",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/33.jpg"
+    },
+    {
+        "id":"dr6",
+        "tag":"Dermatology",
+        "name":"Johnson Donald",
+        "docinfo":"MBBS,FCPS(rhumato)",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/34.jpg"
+    },
+    {
+        "id":"dr7",
+        "tag":"Internal medicine",
+        "name":"Ethan King",
+        "docinfo":"MBBS, MS(ortho)",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/39.jpg"
+    },
+    {
+        "id":"dr8",
+        "tag":"Dermatology",
+        "name":"James Oliver",
+        "docinfo":"MBBS,DMRC,MS(Bioethics)",
+        "available":"Available Today",
+        "country":"UK",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/40.jpg"
+    }
+  
+]

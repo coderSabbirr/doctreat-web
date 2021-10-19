@@ -1,0 +1,44 @@
+.no-found {
+    text-align: center;
+    color: #42495b;
+    padding: 150px;
+}
+.no-found h1{
+   font-size:13rem;
+   line-height: 1;
+
+}
+.no-found h3{
+   font-size:3rem;
+   line-height: 1;
+   margin-top: 30px;
+
+}
+.back-home-btn {
+background-color: #04D2C8;
+padding: 15px 45px;
+margin-top:30px;
+border:none;
+border-radius: 45px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+@media only screen and (max-width: 600px) {
+   .no-found {
+      padding: 30px;
+  }
+  .no-found h1{
+     font-size:100px;
+  }
+  .no-found h3{
+   font-size:30px;
+   
+  }
+  .back-home-btn {
+   padding: 10px 30px;
+   margin-top:30px;
+   
+   }
+
+ }

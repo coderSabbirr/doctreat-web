@@ -1,0 +1,46 @@
+.login-sec {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.login-sec{
+    border: 3px solid #3FABF3;
+    padding-bottom: 60px;
+    padding-top:60px;
+}
+.submit-btn  {
+    padding: 10px 30px;
+    background-color: #3fabf3;
+    border: 2px solid #3fabf3;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+
+}
+.google-btn{
+    padding: 10px 30px;
+    background-color: #4286F5;
+    border: 2px solid #3fabf3;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+
+}
+.two-btn-div {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .login-sec {
+        margin-top: 10x;
+        margin-bottom: 100px;
+    }
+    .login-sec{
+      padding: 10px;
+    }
+    .google-btn{
+        padding: 10px 10px; 
+    }
+    .custom-login-btn {
+        margin-left: 4px;
+    }
+  }

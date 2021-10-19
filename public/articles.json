@@ -1,0 +1,62 @@
+[
+    {    "id":"1abc",
+        "tag":"Dermatology",
+        "title":"Study reveals fiber we should eat to prevent disease",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0007_Layer-1-545x389.jpg"
+    },
+    {    "id":"2abc",
+        "tag":"Family medicine",
+        "title":"Processed foods lead to weight gain, but it’s about more than calories",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0000_Layer-8-545x389.jpg"
+    },
+    {    "id":"3abc",
+        "tag":"Diagnostic radiology",
+        "title":"Intermittent fasting boosts health by strengthening daily rhythms",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0001_Layer-7-545x389.jpg"
+    },
+    {    "id":"4abc",
+        "tag":"Family medicine",
+        "title":"Hypertension treatment may slow down Alzheimer’s progression",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0002_Layer-6-545x389.jpg"
+    },
+    {    "id":"5abc",
+        "tag":"Diagnostic radiology",
+        "title":"6 innovations from Future Healthcare 2019",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0003_Layer-5-545x389.jpg"
+    },
+    {    "id":"6abc",
+        "tag":"Dermatology",
+        "title":"Is high blood pressure always bad?",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0004_Layer-4-545x389.jpg"
+    },
+    {    "id":"7abc",
+        "tag":"Diagnostic radiology",
+        "title":"This sleep disorder puts people at ‘very high risk’ of Parkinson’s",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0005_Layer-3-545x389.jpg"
+    },
+    {    "id":"8abc",
+        "tag":"Diagnostic radiology",
+        "title":"These common drugs may increase dementia risk",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0006_Layer-2-545x389.jpg"
+    },
+    {    "id":"9abc",
+        "tag":"Diagnostic radiology",
+        "title":"Osteoporosis breakthrough: Bone mass increased by 800 percent",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-2_0005_Layer-23-545x389.jpg"
+    },
+    {    "id":"10abc",
+        "tag":"Emergency medicine",
+        "title":"New HIV vaccine could expose latent virus and kill it",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-2_0007_Layer-21-545x389.jpg"
+    },
+    {    "id":"11abc",
+        "tag":"Emergency medicine",
+        "title":"Giving up alcohol for just 1 month has lasting benefits",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-2_0008_Layer-20-545x389.jpg"
+    },
+    {    "id":"12abc",
+        "tag":"Diagnostic radiology",
+        "title":"Can social media really cause depression?",
+        "img":"http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-2_0000_Layer-28-545x389.jpg"
+    }
+]

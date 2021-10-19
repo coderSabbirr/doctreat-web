@@ -1,0 +1,19 @@
+.register {
+    border: 3px solid #3FABF3;
+    padding-bottom: 60px;
+    padding-top:60px;
+}
+.register-btn{
+    text-align: center;
+    width: 150px;
+    background-color: #4286F5;
+    border: 2px solid #3fabf3;
+    border-radius: 4px;
+    color: white;
+    font: 400 16px/40px'Poppins',Arial,Helvetica,sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .two-btn-div{
+        margin-left: 15px;
+    }
+  }

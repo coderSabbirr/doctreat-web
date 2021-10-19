@@ -1,0 +1,14 @@
+.singel-cart {
+    width: 400px;
+    height: 100%; 
+    margin: auto;   
+}
+.singel-cart h6 {
+color:#3fabf3 ;
+}
+.fee{
+    color: #FF5863;
+    font-weight: 600;
+    line-height: 0.1;
+}
+

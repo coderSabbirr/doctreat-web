@@ -1,0 +1,11 @@
+.thank-text {
+    margin-top: 50px ;
+}
+.thank-text h3 {
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .thank-text img{
+        width: 80%;
+    }
+  }

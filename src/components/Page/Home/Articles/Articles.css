@@ -1,0 +1,32 @@
+.articles-sec {
+    margin-top: 20px;
+    padding-top: 20px;
+    
+
+}
+
+.articles-sec h1{
+    text-align: center;
+
+}
+.articles-sec h6{
+    text-align: center;
+    font-weight: normal;
+
+}
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+@media only screen and (max-width: 600px) {
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .articles-sec {
+        margin-right: 10%;
+    }
+  }

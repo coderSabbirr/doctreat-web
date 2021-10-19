@@ -1,0 +1,26 @@
+.contect {
+    margin-top: 2%;
+}
+.contect h1 {
+    margin-bottom: 30px;
+}
+
+.contect-text {
+    margin-right:10% ;
+    margin-left:10% ;
+    margin-top:5% ;
+}
+@media only screen and (max-width: 600px) {
+    .contect-flex{
+        display: flex;
+        flex-direction: column
+    }
+    .contect iframe{
+        margin-top: 20px;
+         width: 400px;
+         height: 300px;
+    }
+    .contect {
+        margin-top: 5%;
+    } 
+  }
