@@ -16,8 +16,7 @@ const Login = () => {
 
     return (
         <div className="text-center container  login-sec">
-            <h2 className="mb-5">Log In</h2>
-          <form action="">
+            <h1 className="mb-5 custom-color">Login</h1>
           <div className="mb-3 row " >
     <label  className="col-sm-2 col-form-label">Email</label>
     <div className="col-sm-10">
@@ -30,10 +29,10 @@ const Login = () => {
       <input type="password" onChange={handalPasswordChange} className="form-control" id="inputPassword" required/>
     </div>
   </div>
-  <p>New to DocTreat ?<Link to="/register">Register</Link></p>
+  <p className="new-user">New member?<Link to="/register"> Register here.</Link></p>
 <div className="two-btn-div"><button className="submit-btn" onClick={handaleSignIn}>Login</button> <button className="google-btn" onClick={signInUsingGoogle}>Sign in With Google</button></div>
 
-          </form>
+        
         </div>
     );
 };

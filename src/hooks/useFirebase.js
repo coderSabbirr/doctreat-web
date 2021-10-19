@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged,createUserWithEmailAndPassword ,signInWithEmailAndPassword  } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider,signOut,onAuthStateChanged,createUserWithEmailAndPassword ,signInWithEmailAndPassword,updateProfile  } from "firebase/auth";
 import { useEffect } from "react";
 import { useState } from "react";
 import initializeAuthentication from "../components/Page/Login/Firebase/Firebase.init";
@@ -6,9 +6,11 @@ import initializeAuthentication from "../components/Page/Login/Firebase/Firebase
 initializeAuthentication();
 const useFirebase= ()=>{
     const[user,setUser]=useState({})
+    const [name,setName]=useState('')
     const [isLoading, setIsLoading] = useState(true);
     const[email,setEmail]=useState('')
     const[password,setPassword]=useState('')
+    const[error,setError]=useState('')
     const auth = getAuth();
 
 const signInUsingGoogle= ()=> {
@@ -20,7 +22,7 @@ const signInUsingGoogle= ()=> {
         setUser(result.user)
     })
     .catch(error=>{
-      console.log(error.message);
+      setError("popup-closed you");
     })
     .finally(() => setIsLoading(false));
 }
@@ -28,21 +30,26 @@ const signInUsingGoogle= ()=> {
 const handalaRegister= ()=> {
   createUserWithEmailAndPassword (auth,email,password)
 .then(result=>{
-  const user =result.user;
-  setUser(user);
+ 
+  setUsername();
 })
 .catch(error=>{
-  console.log(error.message);
+  setError(error.message);
 })
 }
 const handaleSignIn = ()=>{
   signInWithEmailAndPassword(auth, email, password)
   .then(result=> {
-   console.log(user);
+    
   })
   .catch((error) =>{
-    console.log(error.message);
+    setError(error.message);
   })
+}
+const setUsername =() => {
+  updateProfile(auth.currentUser, {displayName:name})
+  .then(result=>{})
+
 }
 useEffect(()=>{
 onAuthStateChanged(auth, (user) => {
@@ -66,7 +73,6 @@ const logOut =()=>{
     
 }
 
-
     return{
         user,
         signInUsingGoogle,
@@ -76,6 +82,8 @@ const logOut =()=>{
         setPassword,
         handalaRegister,
         handaleSignIn,
+        setName,
+        error
        
 
         

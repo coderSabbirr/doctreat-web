@@ -24,3 +24,11 @@
         margin-top: 5%;
     } 
   }
+
+  @media only screen and (max-width: 600px) {
+    iframe {
+        width: 320px !important;
+        align-items: center;
+        
+    }
+  }

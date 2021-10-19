@@ -29,6 +29,10 @@
     margin-left: 10%;
     margin-top: 20px;
 }
+.new-user a {
+    text-decoration:none !important;
+    color: #1a9cb7 !important;
+}
 @media only screen and (max-width: 600px) {
     .login-sec {
         margin-top: 10x;

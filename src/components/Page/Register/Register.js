@@ -4,7 +4,10 @@ import useAuth from '../../../hooks/useAuth';
 import './Register.css'
 
 const Register = () => {
-const{setEmail,setPassword,handalaRegister,signInUsingGoogle}=useAuth()
+const{setEmail,setPassword,handalaRegister,signInUsingGoogle,setName}=useAuth()
+const handalNameChange = e =>{
+  setName(e.target.value)
+}
     const handaleEmailChange= e =>{
         setEmail(e.target.value);
 
@@ -18,10 +21,14 @@ const{setEmail,setPassword,handalaRegister,signInUsingGoogle}=useAuth()
 
     return (
             <div className="">
-               <form action="">
                <div className="text-center container register   login-sec">
-                <h1 className="text-center mb-5">Register Here</h1>
+                <h1 className="text-center mb-5 custom-color">Register Here</h1>
           <div className="mb-3 row " >
+
+    <label  className="col-sm-2 mb-2 col-form-label">Name</label>
+    <div className="col-sm-10">
+    <input type="name" className="form-control" onChange={handalNameChange} id="name" required />
+    </div>
     <label  className="col-sm-2 col-form-label">Email</label>
     <div className="col-sm-10">
     <input type="email" className="form-control" onChange={handaleEmailChange} id="inputemail" required />
@@ -33,10 +40,10 @@ const{setEmail,setPassword,handalaRegister,signInUsingGoogle}=useAuth()
       <input type="password" onChange={handalPasswordChange}  className="form-control" id="inputPassword" required />
     </div>
   </div>
-  <p>Alredy have an acoount? <Link to="/login">Login</Link></p>
+  <p className="new-user">Alredy have an acoount? <Link to="/login">Login</Link></p>
 <div className="two-btn-div"><button className="submit-btn" onClick={handalaRegister}>Create Account</button> <button className="google-btn" onClick={signInUsingGoogle}>Sign in With Google</button></div>
             </div>
-               </form>
+               
         </div>
     );
 };
