@@ -28,12 +28,13 @@ const signInUsingGoogle= ()=> {
     .finally(() => setIsLoading(false));
 }
 
-const handalaRegister= ()=> {
+const handalRegistration = ()=> {
   createUserWithEmailAndPassword (auth,email,password)
 .then(result=>{
   setUser(result.user)
   setUsername();
   window.location.reload();
+  
 })
 .catch(error=>{
   setError(error.message);
@@ -81,7 +82,7 @@ const logOut =()=>{
         isLoading,
         setEmail,
         setPassword,
-        handalaRegister,
+        handalRegistration,
         handaleSignIn,
         setName,
         error

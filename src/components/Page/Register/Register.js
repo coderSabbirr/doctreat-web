@@ -4,7 +4,10 @@ import useAuth from '../../../hooks/useAuth';
 import './Register.css'
 
 const Register = () => {
-const{setEmail,setPassword,handalaRegister,signInUsingGoogle,setName}=useAuth()
+const{setEmail,setPassword,signInUsingGoogle,setName,handalRegistration}=useAuth()
+
+
+
 const handalNameChange = e =>{
   setName(e.target.value)
 }
@@ -13,9 +16,6 @@ const handalNameChange = e =>{
 
     }
     const handalPasswordChange= e =>{
-        if(e.target.value.length <6){
-            return;
-        }
         setPassword(e.target.value);
     }
 
@@ -23,7 +23,6 @@ const handalNameChange = e =>{
             <div className="">
                <div className="text-center container register   login-sec">
                 <h1 className="text-center mb-5 custom-color">Register Here</h1>
-          <form action="">
           <div className="mb-3 row " >
           <label  className="col-sm-2 mb-2 col-form-label">Name</label>
     <div className="col-sm-10">
@@ -41,8 +40,8 @@ const handalNameChange = e =>{
     </div>
   </div>
   <p className="new-user">Alredy have an acoount? <Link to="/login">Login</Link></p>
-<div className="two-btn-div"><button className="submit-btn" onClick={handalaRegister}>Create Account</button> <button className="google-btn" onClick={signInUsingGoogle}>Sign in With Google</button></div>
-          </form>
+<div className="two-btn-div"><button className="submit-btn" type="submit" onClick={handalRegistration} >Create Account</button> <button className="google-btn" onClick={signInUsingGoogle}>Sign in With Google</button></div>
+     
             </div>
                
         </div>
