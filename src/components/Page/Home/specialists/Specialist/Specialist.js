@@ -14,7 +14,6 @@ const Specialist = (props) => {
     <p>{docinfo}</p>
     <p className="avail">{available}</p>
     <div className="btn-two">
-    <Link to={`/booking/${id}`}><button className="me-3 doc-about">About Us</button></Link>
     <Link to={`/booking/${id}`}><button className="doc-contect">Contect Us</button></Link>
     </div>
   </div>

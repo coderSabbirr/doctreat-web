@@ -1,0 +1,31 @@
+[debug] [2021-10-19T17:54:32.967Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T17:54:32.973Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-19T17:54:32.974Z] CLI Version:   9.20.0
+[debug] [2021-10-19T17:54:32.974Z] Platform:      win32
+[debug] [2021-10-19T17:54:32.974Z] Node Version:  v14.17.4
+[debug] [2021-10-19T17:54:32.982Z] Time:          Tue Oct 19 2021 23:54:32 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T17:54:32.983Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T17:54:33.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T17:54:33.072Z] > authorizing via signed-in user (sabbirnahid5817@gmail.com)
+[debug] [2021-10-19T17:54:33.072Z] [iam] checking project react-firebase-201 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-19T17:54:33.075Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/react-firebase-201:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-19T17:54:35.786Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:54:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1173","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:54:35.792Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T17:54:35.792Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:54:38.639Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 19 Oct 2021 17:54:42 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:54:38.671Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-firebase-201 [none]
+[debug] [2021-10-19T17:55:08.683Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/react-firebase-201
+[debug] [2021-10-19T17:55:20.964Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/react-firebase-201
+    at Client.doRequest (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:209:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:65:9)
+    at async C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project react-firebase-201. Please make sure the project exists and your account has permission to access it.

@@ -23,9 +23,9 @@ const handalNameChange = e =>{
             <div className="">
                <div className="text-center container register   login-sec">
                 <h1 className="text-center mb-5 custom-color">Register Here</h1>
+          <form action="">
           <div className="mb-3 row " >
-
-    <label  className="col-sm-2 mb-2 col-form-label">Name</label>
+          <label  className="col-sm-2 mb-2 col-form-label">Name</label>
     <div className="col-sm-10">
     <input type="name" className="form-control" onChange={handalNameChange} id="name" required />
     </div>
@@ -42,6 +42,7 @@ const handalNameChange = e =>{
   </div>
   <p className="new-user">Alredy have an acoount? <Link to="/login">Login</Link></p>
 <div className="two-btn-div"><button className="submit-btn" onClick={handalaRegister}>Create Account</button> <button className="google-btn" onClick={signInUsingGoogle}>Sign in With Google</button></div>
+          </form>
             </div>
                
         </div>
