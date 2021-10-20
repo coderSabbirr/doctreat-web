@@ -33,7 +33,7 @@ const handalRegistration = ()=> {
 .then(result=>{
   setUser(result.user)
   setUsername();
-  window.location.reload();
+ window.location.reload();
   
 })
 .catch(error=>{
